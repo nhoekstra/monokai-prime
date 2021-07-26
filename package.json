@@ -1,0 +1,44 @@
+{
+  "name": "monokai-prime",
+  "displayName": "Monokai Prime",
+  "description": "Monokai theme with Dark+ base",
+  "publisher": "nhoekstra",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhoekstra/monokai-prime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhoekstra/monokai-prime/issues"
+  },
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monokai",
+    "prime",
+    "theme",
+    "dark",
+    "vscode"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Prime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-prime-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "icon": "images/monokai-icon.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  }
+}
