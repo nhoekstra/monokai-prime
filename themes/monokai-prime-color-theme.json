@@ -144,7 +144,7 @@
       }
     },
     {
-      "scope": ["constant.language", "constant.character, constant.other"],
+      "scope": ["constant.language", "constant.character", "constant.other"],
       "settings": {
         "foreground": "#ae81ff"
       }
